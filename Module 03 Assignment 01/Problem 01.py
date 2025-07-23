@@ -1,3 +1,13 @@
+""""
+ Introduction to OOP Concepts
+
+Create a class Person with attributes name and age. Create an object and display its details.
+
+Input: Person("Alice", 25)
+
+Output: Name: Alice, Age: 25
+"""
+
 class Person:
     def __init__(self,name,age):
         self.name = name
